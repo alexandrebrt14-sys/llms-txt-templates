@@ -1,59 +1,110 @@
-# llms.txt Template Pack — Starter Templates for AI-Readable Brand Descriptions
+# llms.txt Examples
 
-> 5 ready-to-use llms.txt templates for different business types.
-> Maintained by [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO of Brasil GEO.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+A collection of templates, a proposed specification, and a validation tool for the **llms.txt** standard — a plain-text file that helps large language models understand your website, organization, or product.
 
 ---
 
+## Table of Contents
+
+- [What is llms.txt?](#what-is-llmstxt)
+- [Why It Matters](#why-it-matters)
+- [Quick Start](#quick-start)
+- [Templates](#templates)
+- [Specification](#specification)
+- [Validator](#validator)
+- [FAQ](#faq)
+- [Citation](#citation)
+- [License](#license)
+
 ## What is llms.txt?
 
-`llms.txt` is a markdown file placed at the root of your website (e.g., `yoursite.com/llms.txt`) that provides large language models with a structured, curated summary of your brand, services, and content. Think of it as a `robots.txt` for AI comprehension — while `robots.txt` tells crawlers what to index, `llms.txt` tells AI engines what to understand.
+\`llms.txt\` is a plain-text file placed at the root of a website (e.g., \`https://example.com/llms.txt\`) that provides structured information about the site for consumption by large language models.
 
-Proposed by Jeremy Howard (fast.ai), the llms.txt protocol is gaining adoption as a practical way to improve brand accuracy in AI-generated responses.
+Think of it as \`robots.txt\` for the AI era. While \`robots.txt\` tells search engine crawlers what to index, \`llms.txt\` tells AI models what the site is about, what matters most, and where to find key information.
+
+### The Problem It Solves
+
+When an LLM encounters your website (either during training or through retrieval-augmented generation), it must figure out:
+
+1. What is this entity?
+2. What are the most important pages?
+3. What facts should it know?
+4. How should it describe this entity?
+
+Without \`llms.txt\`, the model infers all of this from unstructured HTML — often getting it wrong, using outdated information, or missing key pages.
+
+## Why It Matters
+
+**1. Control your narrative.** LLMs will describe your entity whether you provide guidance or not.
+
+**2. Surface your best content.** Most LLMs and retrieval systems do not crawl every page.
+
+**3. Improve citation accuracy.** When LLMs cite your site, they often get details wrong.
+
+**4. Futureproof discoverability.** As AI interfaces replace traditional search for many queries, having a machine-readable summary becomes as important as having good SEO metadata.
+
+## Quick Start
+
+1. Create a file called \`llms.txt\` in your site's root directory
+2. Use the format below (or copy from [templates/](templates/))
+3. Deploy it so it's accessible at \`https://yourdomain.com/llms.txt\`
+4. Validate it with the [validator tool](tools/validator.py)
 
 ## Templates
 
-| Template | Business Type | File |
-|---|---|---|
-| 1 | B2B SaaS | [templates/b2b-saas.txt](templates/b2b-saas.txt) |
-| 2 | Consulting / Professional Services | [templates/consulting.txt](templates/consulting.txt) |
-| 3 | E-commerce | [templates/ecommerce.txt](templates/ecommerce.txt) |
-| 4 | Personal Brand / Creator | [templates/personal-brand.txt](templates/personal-brand.txt) |
-| 5 | Local Business | [templates/local-business.txt](templates/local-business.txt) |
+Ready-to-use templates for different types of organizations:
 
-## Structure
+| Template | Best For |
+|---|---|
+| [startup.txt](templates/startup.txt) | Early-stage startups and tech companies |
+| [ecommerce.txt](templates/ecommerce.txt) | Online stores and retailers |
+| [agency.txt](templates/agency.txt) | Marketing, design, and consulting agencies |
+| [personal-brand.txt](templates/personal-brand.txt) | Consultants, speakers, authors, experts |
+| [saas.txt](templates/saas.txt) | Software-as-a-service products |
 
-Every llms.txt should contain these sections:
+## Specification
 
-1. **Frontmatter** — title, description, author, url, language, last_updated
-2. **Identity** — who you are, what you do (2-3 paragraphs)
-3. **Products / Services** — name, format, price, link for each offering
-4. **Key Topics** — areas of expertise (list)
-5. **Pages** — links to your most important pages
-6. **FAQ** — questions and answers your audience asks AI
-7. **Contact / External References** — links to all profiles and channels
+See [\`spec/llms-txt-spec.md\`](spec/llms-txt-spec.md) for the proposed specification, including:
 
-## Implementation
+- File format and encoding
+- Required and optional sections
+- Linking conventions
+- Best practices for content
+- Relationship to \`llms-full.txt\`
 
-### Next.js
-Place in `/public/llms.txt`. Configure `next.config.ts` to serve with `Content-Type: text/plain`.
+## Validator
 
-### WordPress
-Upload to root via FTP, or use a plugin that serves static files from root.
+A Python tool for validating \`llms.txt\` files:
 
-### Static HTML
-Place `llms.txt` in your site's root directory alongside `index.html`.
+\`\`\`bash
+python tools/validator.py https://example.com/llms.txt
+\`\`\`
+
+The validator checks encoding, required sections, link format, content length, and common mistakes. Requires Python 3.8+ and requests.
+
+## FAQ
+
+**Is llms.txt an official standard?**
+Not yet. It is a proposed convention gaining adoption among practitioners.
+
+**Does ChatGPT/Gemini/Perplexity actually read llms.txt?**
+RAG systems like Perplexity can access it during real-time retrieval. For training-based models, the file is useful when it appears in training data crawls.
+
+**Should I have both llms.txt and llms-full.txt?**
+If your entity is complex, yes. Use llms.txt as a concise summary and llms-full.txt for comprehensive information.
 
 ## Citation
 
-Caramaschi, A. (2026). llms.txt Template Pack: Starter Templates for AI-Readable Brand Descriptions. Brasil GEO. https://github.com/alexandrebrt14-sys/llms-txt-templates
-
-## Author
-
-**Alexandre Caramaschi** — CEO & Founder of [Brasil GEO](https://alexandrecaramaschi.com). Specialist in Generative Engine Optimization (GEO) and algorithmic visibility.
+\`\`\`
+Caramaschi, A. (2026). llms.txt Examples: Templates and Tools for LLM Discoverability. GitHub. https://github.com/alexandrebrt14-sys/llms-txt-templates
+\`\`\`
 
 ## License
 
-MIT License.
+MIT License. See [LICENSE](LICENSE).
+
+---
+
+**Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO at Brasil GEO, GEO specialist, ex-CMO Semantix.
