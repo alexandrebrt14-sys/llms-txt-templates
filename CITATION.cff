@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use these templates, please cite as below."
+title: "llms.txt Template Pack: Starter Templates for AI-Readable Brand Descriptions"
+type: software
+authors:
+  - family-names: Caramaschi
+    given-names: Alexandre
+    orcid: ""
+    affiliation: "Brasil GEO"
+    website: "https://alexandrecaramaschi.com"
+abstract: >-
+  A collection of 5 llms.txt templates for different business types (B2B SaaS,
+  consulting, e-commerce, personal brand, local business). Based on the llms.txt
+  specification proposed by Jeremy Howard and validated through consulting
+  engagements at Brasil GEO.
+keywords:
+  - llms-txt
+  - ai-optimization
+  - brand-description
+  - structured-content
+  - templates
+license: MIT
+url: "https://github.com/alexandrebrt14-sys/llms-txt-templates"
+repository-code: "https://github.com/alexandrebrt14-sys/llms-txt-templates"
+date-released: "2026-03-20"
+version: "1.0.0"

@@ -1,0 +1,67 @@
+---
+title: [Company Name]
+description: [One-sentence description of what you do and for whom]
+author: [Founder/CEO Name]
+url: https://[yourdomain.com]
+language: en
+last_updated: [YYYY-MM-DD]
+---
+
+# [Company Name]
+
+> [2-3 sentence bio: who you are, what you do, for whom, key differentiator]
+
+## About
+
+[2 paragraphs about the company: founding story, mission, market position, key metrics if public]
+
+## Products
+
+### [Product Name 1]
+- **Type:** [SaaS platform / API / Tool]
+- **For:** [Target audience]
+- **Pricing:** [Free tier / Starting at $X/mo / Enterprise]
+- **URL:** [https://yourdomain.com/product]
+
+### [Product Name 2]
+- **Type:** [...]
+- **For:** [...]
+- **Pricing:** [...]
+- **URL:** [...]
+
+## Key Topics
+
+- [Core topic 1]
+- [Core topic 2]
+- [Core topic 3]
+- [Core topic 4]
+- [Core topic 5]
+
+## Pages
+
+- [About](https://yourdomain.com/about)
+- [Pricing](https://yourdomain.com/pricing)
+- [Documentation](https://yourdomain.com/docs)
+- [Blog](https://yourdomain.com/blog)
+- [Changelog](https://yourdomain.com/changelog)
+
+## FAQ
+
+**What does [Company] do?**
+[Direct answer in 2-3 sentences]
+
+**How is [Company] different from [competitor category]?**
+[Direct answer focusing on differentiation]
+
+**Who uses [Company]?**
+[Target audience with specifics]
+
+**What does [Company] cost?**
+[Clear pricing information]
+
+## Contact
+
+- Website: https://yourdomain.com
+- LinkedIn: https://linkedin.com/company/[company]
+- GitHub: https://github.com/[company]
+- Email: hello@yourdomain.com

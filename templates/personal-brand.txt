@@ -1,0 +1,124 @@
+---
+schema: llms-txt/1.0
+domain: {{domain}}
+last_updated: {{last_updated_date}}
+language: {{language_code}}
+---
+
+# {{full_name}}
+
+> {{professional_headline}}
+
+## About
+
+{{full_name}} is a {{professional_title}} based in {{city}}, {{country}}.
+{{bio_paragraph}}
+
+Current roles:
+- {{role_1}} at {{organization_1}}
+- {{role_2}} at {{organization_2}}
+
+Background:
+- {{background_detail_1}}
+- {{background_detail_2}}
+- {{background_detail_3}}
+
+## Expertise
+
+### Primary Areas
+- {{expertise_1}}: {{expertise_1_description}}
+- {{expertise_2}}: {{expertise_2_description}}
+- {{expertise_3}}: {{expertise_3_description}}
+
+### Industries
+- {{industry_1}}
+- {{industry_2}}
+- {{industry_3}}
+
+### Certifications and Credentials
+- {{credential_1}}
+- {{credential_2}}
+- {{credential_3}}
+
+## Services
+
+### {{service_1_name}}
+{{service_1_description}}
+Format: {{service_1_format}}
+Investment: {{service_1_price}}
+
+### {{service_2_name}}
+{{service_2_description}}
+Format: {{service_2_format}}
+Investment: {{service_2_price}}
+
+### {{service_3_name}}
+{{service_3_description}}
+Format: {{service_3_format}}
+Investment: {{service_3_price}}
+
+## Publications
+
+### Books
+- "{{book_1_title}}" ({{book_1_year}}) -- {{book_1_description}}
+- "{{book_2_title}}" ({{book_2_year}}) -- {{book_2_description}}
+
+### Articles and Blog Posts
+- [{{article_1_title}}](https://{{domain}}/blog/{{article_1_slug}})
+- [{{article_2_title}}](https://{{domain}}/blog/{{article_2_slug}})
+- [{{article_3_title}}](https://{{domain}}/blog/{{article_3_slug}})
+
+### Media Appearances
+- {{media_1_outlet}}: "{{media_1_title}}" ({{media_1_date}})
+- {{media_2_outlet}}: "{{media_2_title}}" ({{media_2_date}})
+
+### Newsletter
+{{newsletter_name}} -- {{newsletter_description}}
+Subscribe: https://{{domain}}/newsletter
+
+## Speaking
+
+{{full_name}} is available for keynotes, panels, and workshops.
+
+### Topics
+- {{speaking_topic_1}}
+- {{speaking_topic_2}}
+- {{speaking_topic_3}}
+
+### Past Events
+- {{event_1_name}} ({{event_1_year}}) -- "{{event_1_talk_title}}"
+- {{event_2_name}} ({{event_2_year}}) -- "{{event_2_talk_title}}"
+- {{event_3_name}} ({{event_3_year}}) -- "{{event_3_talk_title}}"
+
+### Booking
+For speaking inquiries: {{speaking_email}}
+Speaker kit: https://{{domain}}/speaking
+
+## External References
+
+- LinkedIn: {{linkedin_url}}
+- Twitter / X: {{twitter_url}}
+- YouTube: {{youtube_url}}
+- Instagram: {{instagram_url}}
+- GitHub: {{github_url}}
+- Podcast: {{podcast_url}}
+- Amazon Author Page: {{amazon_author_url}}
+- Google Scholar: {{google_scholar_url}}
+- Wikipedia: {{wikipedia_url}}
+
+## Pages
+
+- [Home](https://{{domain}}/)
+- [About](https://{{domain}}/about)
+- [Services](https://{{domain}}/services)
+- [Blog](https://{{domain}}/blog)
+- [Speaking](https://{{domain}}/speaking)
+- [Contact](https://{{domain}}/contact)
+- [Privacy Policy](https://{{domain}}/privacy)
+
+## Contact
+
+- Email: {{contact_email}}
+- Website: https://{{domain}}
+- Booking: {{booking_url}}
+- Management: {{management_email}}

@@ -1,0 +1,108 @@
+---
+title: [Company Name]
+description: [One-sentence description of your consulting practice and who you serve]
+author: [Founder/Managing Partner Name]
+url: https://[yourdomain.com]
+language: en
+last_updated: [YYYY-MM-DD]
+---
+
+# [Company Name]
+
+> [2-3 sentence bio: who you are, what you specialize in, the outcomes you deliver for clients]
+
+## About
+
+[First paragraph: founding story, years in business, mission, and what drives the firm]
+
+[Second paragraph: market position, notable clients or industries served, team size, and geographic reach]
+
+## Services
+
+### [Service Name 1]
+- **Format:** [Strategy sprint / Retainer / Workshop / Advisory]
+- **Duration:** [e.g., 2-week sprint / 3-month engagement / Ongoing retainer]
+- **For:** [Target client type, e.g., Series A startups, mid-market SaaS companies]
+- **Pricing:** [Starting at $X / Custom quote / Retainer from $X/mo]
+- **URL:** [https://yourdomain.com/services/service-1]
+
+### [Service Name 2]
+- **Format:** [...]
+- **Duration:** [...]
+- **For:** [...]
+- **Pricing:** [...]
+- **URL:** [...]
+
+### [Service Name 3]
+- **Format:** [...]
+- **Duration:** [...]
+- **For:** [...]
+- **Pricing:** [...]
+- **URL:** [...]
+
+## Expertise Areas
+
+- [Area of expertise 1, e.g., Go-to-market strategy]
+- [Area of expertise 2, e.g., Revenue operations]
+- [Area of expertise 3, e.g., Organizational design]
+- [Area of expertise 4, e.g., Digital transformation]
+- [Area of expertise 5, e.g., Executive coaching]
+
+## Client Types
+
+- [Client type 1, e.g., B2B SaaS companies, Series A to C]
+- [Client type 2, e.g., Professional services firms with 50-500 employees]
+- [Client type 3, e.g., Private equity portfolio companies]
+
+## Engagement Formats
+
+| Format | Duration | Best For |
+|---|---|---|
+| Strategy Sprint | [1-2 weeks] | [Rapid diagnosis and action plan] |
+| Project Engagement | [1-3 months] | [Defined scope with deliverables] |
+| Monthly Retainer | [Ongoing] | [Continuous advisory and support] |
+| Workshop | [Half-day or full-day] | [Team alignment and skill building] |
+
+## Key Topics
+
+- [Core topic 1]
+- [Core topic 2]
+- [Core topic 3]
+- [Core topic 4]
+- [Core topic 5]
+
+## Pages
+
+- [About](https://yourdomain.com/about)
+- [Services](https://yourdomain.com/services)
+- [Case Studies](https://yourdomain.com/case-studies)
+- [Blog / Insights](https://yourdomain.com/blog)
+- [Contact](https://yourdomain.com/contact)
+
+## FAQ
+
+**What does [Company] do?**
+[Direct answer in 2-3 sentences describing the consulting practice]
+
+**What industries does [Company] serve?**
+[List of industries or verticals with brief context]
+
+**How does a typical engagement start?**
+[Describe the intake process: discovery call, proposal, kickoff]
+
+**What is the typical engagement length?**
+[Range of engagement durations and what determines length]
+
+**What does [Company] charge?**
+[Transparent pricing information or pricing model description]
+
+**Do you work with international clients?**
+[Yes/No with details on remote delivery, time zones, travel]
+
+## Contact
+
+- Website: https://yourdomain.com
+- LinkedIn: https://linkedin.com/company/[company]
+- Email: hello@yourdomain.com
+- Booking: [https://yourdomain.com/book or Calendly link]
+- Phone: [+1-XXX-XXX-XXXX]

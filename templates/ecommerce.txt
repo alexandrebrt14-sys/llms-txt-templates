@@ -1,0 +1,114 @@
+---
+title: [Brand Name]
+description: [One-sentence description of what you sell and who it's for]
+author: [Founder/CEO Name]
+url: https://[yourdomain.com]
+language: en
+last_updated: [YYYY-MM-DD]
+---
+
+# [Brand Name]
+
+> [2-3 sentence bio: what you sell, who it's for, what makes your products unique]
+
+## About
+
+[First paragraph: brand story, founding year, mission, and what inspired the brand]
+
+[Second paragraph: what sets you apart — materials, sourcing, craftsmanship, sustainability, or design philosophy]
+
+## Product Categories
+
+### [Category 1, e.g., Outerwear]
+- **URL:** [https://yourdomain.com/collections/category-1]
+- **Price Range:** [$XX - $XXX]
+- **Description:** [Brief description of this category]
+
+### [Category 2, e.g., Accessories]
+- **URL:** [https://yourdomain.com/collections/category-2]
+- **Price Range:** [$XX - $XXX]
+- **Description:** [Brief description of this category]
+
+### [Category 3, e.g., Gift Sets]
+- **URL:** [https://yourdomain.com/collections/category-3]
+- **Price Range:** [$XX - $XXX]
+- **Description:** [Brief description of this category]
+
+## Bestsellers
+
+- **[Product Name 1]** — [$XX] — [One-line description] — [https://yourdomain.com/products/product-1]
+- **[Product Name 2]** — [$XX] — [One-line description] — [https://yourdomain.com/products/product-2]
+- **[Product Name 3]** — [$XX] — [One-line description] — [https://yourdomain.com/products/product-3]
+
+## Shipping
+
+| Region | Method | Cost | Estimated Delivery |
+|---|---|---|---|
+| [Domestic] | [Standard] | [$X.XX or Free over $XX] | [3-5 business days] |
+| [Domestic] | [Express] | [$XX.XX] | [1-2 business days] |
+| [International] | [Standard] | [$XX.XX] | [7-14 business days] |
+
+- Free shipping threshold: [$XX]
+- Order processing time: [1-2 business days]
+- Carriers used: [USPS, UPS, FedEx, DHL, etc.]
+
+## Returns & Exchanges
+
+- **Return window:** [30] days from delivery
+- **Condition:** [Items must be unused, in original packaging]
+- **Process:** [Initiate via account portal or email support@yourdomain.com]
+- **Refund method:** [Original payment method within X business days]
+- **Exchanges:** [Available for size/color swaps, subject to availability]
+- **Non-returnable items:** [Final sale items, gift cards, personalized products]
+- **Full policy:** [https://yourdomain.com/policies/returns]
+
+## Key Topics
+
+- [Core topic 1, e.g., Sustainable fashion]
+- [Core topic 2, e.g., Handcrafted goods]
+- [Core topic 3, e.g., Minimalist design]
+- [Core topic 4, e.g., Ethical sourcing]
+- [Core topic 5, e.g., Gift guides]
+
+## Pages
+
+- [Shop All](https://yourdomain.com/collections/all)
+- [About Us](https://yourdomain.com/about)
+- [FAQ](https://yourdomain.com/faq)
+- [Shipping Policy](https://yourdomain.com/policies/shipping)
+- [Return Policy](https://yourdomain.com/policies/returns)
+- [Blog](https://yourdomain.com/blog)
+- [Contact](https://yourdomain.com/contact)
+
+## FAQ
+
+**What do you sell?**
+[Direct answer describing your product range in 2-3 sentences]
+
+**Where do you ship?**
+[List of countries/regions with brief shipping details]
+
+**What is your return policy?**
+[Summary of return window, conditions, and process]
+
+**What payment methods do you accept?**
+[List: credit cards, PayPal, Apple Pay, Klarna, etc.]
+
+**Do you offer gift cards?**
+[Yes/No with details and link]
+
+**Are your products [sustainable / organic / handmade]?**
+[Answer addressing your brand's key value proposition]
+
+**Do you offer wholesale or bulk pricing?**
+[Yes/No with details or contact information]
+
+## Contact
+
+- Website: https://yourdomain.com
+- Email: support@yourdomain.com
+- Instagram: https://instagram.com/[brand]
+- Facebook: https://facebook.com/[brand]
+- TikTok: https://tiktok.com/@[brand]
+- Pinterest: https://pinterest.com/[brand]
+- Phone: [+1-XXX-XXX-XXXX]
