@@ -1,124 +1,128 @@
 ---
-schema: llms-txt/1.0
-domain: {{domain}}
-last_updated: {{last_updated_date}}
-language: {{language_code}}
+title: [Your Full Name]
+description: [One-sentence description of who you are and what you're known for]
+author: [Your Full Name]
+url: https://[yourdomain.com]
+language: en
+last_updated: [YYYY-MM-DD]
 ---
 
-# {{full_name}}
+# [Your Full Name]
 
-> {{professional_headline}}
+> [2-3 sentence bio: your professional identity, what you do, who you help, and your key differentiator]
 
 ## About
 
-{{full_name}} is a {{professional_title}} based in {{city}}, {{country}}.
-{{bio_paragraph}}
+[First paragraph: your background, career journey, and what led you to your current work]
 
-Current roles:
-- {{role_1}} at {{organization_1}}
-- {{role_2}} at {{organization_2}}
+[Second paragraph: your mission, the audience you serve, and what makes your perspective unique]
 
-Background:
-- {{background_detail_1}}
-- {{background_detail_2}}
-- {{background_detail_3}}
+## Credentials
 
-## Expertise
+- [Credential 1, e.g., MBA from Harvard Business School]
+- [Credential 2, e.g., 15 years in product management at Google, Stripe, and Notion]
+- [Credential 3, e.g., Certified Executive Coach (ICF PCC)]
+- [Credential 4, e.g., TEDx speaker with 2M+ views]
+- [Credential 5, e.g., Forbes 30 Under 30 (2022)]
 
-### Primary Areas
-- {{expertise_1}}: {{expertise_1_description}}
-- {{expertise_2}}: {{expertise_2_description}}
-- {{expertise_3}}: {{expertise_3_description}}
+## Current Roles
 
-### Industries
-- {{industry_1}}
-- {{industry_2}}
-- {{industry_3}}
+- [Role 1, e.g., CEO & Founder at [Company Name]]
+- [Role 2, e.g., Advisor at [Fund/Accelerator Name]]
+- [Role 3, e.g., Newsletter author at [Newsletter Name]]
 
-### Certifications and Credentials
-- {{credential_1}}
-- {{credential_2}}
-- {{credential_3}}
+## Books & Courses
 
-## Services
+### [Book/Course Title 1]
+- **Type:** [Book / Online course / Workshop series]
+- **Published:** [Year]
+- **Description:** [1-2 sentences about the content and who it's for]
+- **URL:** [https://yourdomain.com/book or Amazon link]
 
-### {{service_1_name}}
-{{service_1_description}}
-Format: {{service_1_format}}
-Investment: {{service_1_price}}
-
-### {{service_2_name}}
-{{service_2_description}}
-Format: {{service_2_format}}
-Investment: {{service_2_price}}
-
-### {{service_3_name}}
-{{service_3_description}}
-Format: {{service_3_format}}
-Investment: {{service_3_price}}
-
-## Publications
-
-### Books
-- "{{book_1_title}}" ({{book_1_year}}) -- {{book_1_description}}
-- "{{book_2_title}}" ({{book_2_year}}) -- {{book_2_description}}
-
-### Articles and Blog Posts
-- [{{article_1_title}}](https://{{domain}}/blog/{{article_1_slug}})
-- [{{article_2_title}}](https://{{domain}}/blog/{{article_2_slug}})
-- [{{article_3_title}}](https://{{domain}}/blog/{{article_3_slug}})
-
-### Media Appearances
-- {{media_1_outlet}}: "{{media_1_title}}" ({{media_1_date}})
-- {{media_2_outlet}}: "{{media_2_title}}" ({{media_2_date}})
-
-### Newsletter
-{{newsletter_name}} -- {{newsletter_description}}
-Subscribe: https://{{domain}}/newsletter
+### [Book/Course Title 2]
+- **Type:** [...]
+- **Published:** [...]
+- **Description:** [...]
+- **URL:** [...]
 
 ## Speaking
 
-{{full_name}} is available for keynotes, panels, and workshops.
-
 ### Topics
-- {{speaking_topic_1}}
-- {{speaking_topic_2}}
-- {{speaking_topic_3}}
+- [Speaking topic 1, e.g., The future of AI in business]
+- [Speaking topic 2, e.g., Building a personal brand in the creator economy]
+- [Speaking topic 3, e.g., Leadership lessons from scaling startups]
 
 ### Past Events
-- {{event_1_name}} ({{event_1_year}}) -- "{{event_1_talk_title}}"
-- {{event_2_name}} ({{event_2_year}}) -- "{{event_2_talk_title}}"
-- {{event_3_name}} ({{event_3_year}}) -- "{{event_3_talk_title}}"
+- [Event Name 1] ([Year]) — "[Talk Title]"
+- [Event Name 2] ([Year]) — "[Talk Title]"
+- [Event Name 3] ([Year]) — "[Talk Title]"
 
 ### Booking
-For speaking inquiries: {{speaking_email}}
-Speaker kit: https://{{domain}}/speaking
+- Speaker kit: [https://yourdomain.com/speaking]
+- Inquiries: [speaking@yourdomain.com]
 
-## External References
+## Media Appearances
 
-- LinkedIn: {{linkedin_url}}
-- Twitter / X: {{twitter_url}}
-- YouTube: {{youtube_url}}
-- Instagram: {{instagram_url}}
-- GitHub: {{github_url}}
-- Podcast: {{podcast_url}}
-- Amazon Author Page: {{amazon_author_url}}
-- Google Scholar: {{google_scholar_url}}
-- Wikipedia: {{wikipedia_url}}
+- [Outlet 1, e.g., The New York Times]: "[Article/Segment Title]" ([Date])
+- [Outlet 2, e.g., NPR]: "[Article/Segment Title]" ([Date])
+- [Outlet 3, e.g., TechCrunch]: "[Article/Segment Title]" ([Date])
+- [Podcast 1, e.g., The Tim Ferriss Show]: "Episode Title" ([Date])
+
+## Services
+
+### [Service Name 1, e.g., 1:1 Executive Coaching]
+- **Format:** [6-month engagement / Monthly sessions]
+- **For:** [Target client, e.g., C-suite executives at tech companies]
+- **Pricing:** [Starting at $X or by application]
+- **URL:** [https://yourdomain.com/coaching]
+
+### [Service Name 2, e.g., Keynote Speaking]
+- **Format:** [45-60 minute keynote + Q&A]
+- **For:** [Conferences, corporate events, universities]
+- **Pricing:** [Fee range or "inquire"]
+- **URL:** [https://yourdomain.com/speaking]
+
+## Key Topics
+
+- [Core topic 1]
+- [Core topic 2]
+- [Core topic 3]
+- [Core topic 4]
+- [Core topic 5]
 
 ## Pages
 
-- [Home](https://{{domain}}/)
-- [About](https://{{domain}}/about)
-- [Services](https://{{domain}}/services)
-- [Blog](https://{{domain}}/blog)
-- [Speaking](https://{{domain}}/speaking)
-- [Contact](https://{{domain}}/contact)
-- [Privacy Policy](https://{{domain}}/privacy)
+- [About](https://yourdomain.com/about)
+- [Blog](https://yourdomain.com/blog)
+- [Newsletter](https://yourdomain.com/newsletter)
+- [Speaking](https://yourdomain.com/speaking)
+- [Books / Courses](https://yourdomain.com/resources)
+- [Contact](https://yourdomain.com/contact)
+
+## FAQ
+
+**Who is [Your Name]?**
+[Direct answer in 2-3 sentences covering your identity and expertise]
+
+**What is [Your Name] known for?**
+[Key achievements, publications, or contributions]
+
+**Does [Your Name] offer coaching/consulting?**
+[Description of services with how to engage]
+
+**How can I book [Your Name] as a speaker?**
+[Process and contact information]
+
+**What topics does [Your Name] write/speak about?**
+[List of core topics]
 
 ## Contact
 
-- Email: {{contact_email}}
-- Website: https://{{domain}}
-- Booking: {{booking_url}}
-- Management: {{management_email}}
+- Website: https://yourdomain.com
+- Email: hello@yourdomain.com
+- LinkedIn: https://linkedin.com/in/[yourname]
+- Twitter / X: https://x.com/[yourhandle]
+- YouTube: https://youtube.com/@[yourchannel]
+- Instagram: https://instagram.com/[yourhandle]
+- Newsletter: https://yourdomain.com/newsletter
+- Management/Booking: [management@yourdomain.com]

@@ -1,0 +1,124 @@
+---
+title: [Business Name]
+description: [One-sentence description of your business and location]
+author: [Owner/Manager Name]
+url: https://[yourdomain.com]
+language: en
+last_updated: [YYYY-MM-DD]
+---
+
+# [Business Name]
+
+> [2-3 sentence bio: what your business is, where it's located, and what makes it special]
+
+## About
+
+[First paragraph: founding story, years in business, family-owned or franchise, community roots]
+
+[Second paragraph: what sets you apart — quality, service philosophy, awards, or local reputation]
+
+## Location & Hours
+
+### Address
+[Street Address]
+[City, State ZIP Code]
+[Country]
+
+### Hours of Operation
+
+| Day | Hours |
+|---|---|
+| Monday | [9:00 AM - 6:00 PM] |
+| Tuesday | [9:00 AM - 6:00 PM] |
+| Wednesday | [9:00 AM - 6:00 PM] |
+| Thursday | [9:00 AM - 8:00 PM] |
+| Friday | [9:00 AM - 8:00 PM] |
+| Saturday | [10:00 AM - 5:00 PM] |
+| Sunday | [Closed] |
+
+- **Holiday hours:** [See website for holiday schedule]
+- **Parking:** [Free lot / Street parking / Validated parking at nearby garage]
+- **Accessibility:** [Wheelchair accessible / ADA compliant]
+
+### Service Area
+[Description of geographic area served, e.g., "Serving the greater Austin, TX metro area within a 25-mile radius"]
+
+## Services / Products
+
+### [Service/Product Category 1, e.g., Haircuts & Styling]
+- **Description:** [Brief description]
+- **Price Range:** [$XX - $XXX]
+- **Appointment Required:** [Yes / No / Walk-ins welcome]
+
+### [Service/Product Category 2, e.g., Color Services]
+- **Description:** [Brief description]
+- **Price Range:** [$XX - $XXX]
+- **Appointment Required:** [Yes / No]
+
+### [Service/Product Category 3, e.g., Treatments]
+- **Description:** [Brief description]
+- **Price Range:** [$XX - $XXX]
+- **Appointment Required:** [Yes / No]
+
+## Reviews & Ratings
+
+- **Google Business Profile:** [X.X stars, XXX reviews] — [https://g.page/your-business]
+- **Yelp:** [X.X stars, XXX reviews] — [https://yelp.com/biz/your-business]
+- **Facebook:** [X.X stars, XXX reviews] — [https://facebook.com/your-business]
+
+### Selected Reviews
+> "[Short quote from a positive review]" — [Reviewer Name], [Platform]
+
+> "[Short quote from a positive review]" — [Reviewer Name], [Platform]
+
+## Key Topics
+
+- [Core topic 1, e.g., Hair salon in Austin TX]
+- [Core topic 2, e.g., Balayage specialist]
+- [Core topic 3, e.g., Bridal hair services]
+- [Core topic 4, e.g., Organic hair products]
+- [Core topic 5, e.g., Walk-in haircuts near downtown Austin]
+
+## Pages
+
+- [Home](https://yourdomain.com)
+- [Services](https://yourdomain.com/services)
+- [Pricing](https://yourdomain.com/pricing)
+- [Gallery](https://yourdomain.com/gallery)
+- [Reviews](https://yourdomain.com/reviews)
+- [About](https://yourdomain.com/about)
+- [Contact](https://yourdomain.com/contact)
+- [Book Online](https://yourdomain.com/book)
+
+## FAQ
+
+**Where is [Business Name] located?**
+[Full address and brief directions or landmarks]
+
+**What are your hours?**
+[Summary of hours with note about holidays]
+
+**Do I need an appointment?**
+[Appointment policy — walk-ins, online booking, phone booking]
+
+**What are your prices?**
+[General pricing info or link to full price list]
+
+**Do you offer [specific service]?**
+[Yes/No with brief details]
+
+**What forms of payment do you accept?**
+[Cash, credit cards, Apple Pay, etc.]
+
+**Is there parking available?**
+[Parking details]
+
+## Contact
+
+- Website: https://yourdomain.com
+- Phone: [+1-XXX-XXX-XXXX]
+- Email: info@yourdomain.com
+- Google Business Profile: [https://g.page/your-business]
+- Instagram: https://instagram.com/[business]
+- Facebook: https://facebook.com/[business]
+- Online Booking: [https://yourdomain.com/book or scheduling platform link]
