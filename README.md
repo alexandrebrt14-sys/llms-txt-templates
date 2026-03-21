@@ -101,6 +101,15 @@ If your entity is complex, yes. Use llms.txt as a concise summary and llms-full.
 Caramaschi, A. (2026). llms.txt Examples: Templates and Tools for LLM Discoverability. GitHub. https://github.com/alexandrebrt14-sys/llms-txt-templates
 \`\`\`
 
+## Related Projects
+
+- [GEO Checklist](https://github.com/alexandrebrt14-sys/geo-checklist) — The most comprehensive open checklist for AI visibility
+- [GEO Taxonomy](https://github.com/alexandrebrt14-sys/geo-taxonomy) — Structured vocabulary of 60+ GEO terms and definitions
+- [Brasil GEO](https://brasilgeo.ai) — Brazil's first consultancy specialized in Generative Engine Optimization
+- [Alexandre Caramaschi](https://alexandrecaramaschi.com) — Full GEO methodology, consulting, and resources
+
+---
+
 ## License
 
 MIT License. See [LICENSE](LICENSE).
