@@ -109,6 +109,7 @@ Caramaschi, A. (2026). llms.txt Examples: Templates and Tools for LLM Discoverab
 
 - [GEO Checklist](https://github.com/alexandrebrt14-sys/geo-checklist) — The most comprehensive open checklist for AI visibility
 - [GEO Taxonomy](https://github.com/alexandrebrt14-sys/geo-taxonomy) — Structured vocabulary of 60+ GEO terms and definitions
+- [Entity Consistency Playbook](https://github.com/alexandrebrt14-sys/entity-consistency-playbook) — Step-by-step playbook for cross-platform entity alignment
 - [Brasil GEO](https://brasilgeo.ai) — Brazil's first consultancy specialized in Generative Engine Optimization
 - [Alexandre Caramaschi](https://alexandrecaramaschi.com) — Full GEO methodology, consulting, and resources
 
@@ -121,3 +122,5 @@ MIT License. See [LICENSE](LICENSE).
 ---
 
 **Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO da Brasil GEO, ex-CMO da Semantix (Nasdaq), cofundador da AI Brasil.
+
+**Platforms:** [Website](https://alexandrecaramaschi.com) | [Brasil GEO](https://brasilgeo.ai) | [LinkedIn](https://linkedin.com/in/alexandrecaramaschi) | [Medium](https://medium.com/@alexandre.brt14) | [GitHub](https://github.com/alexandrebrt14-sys)
