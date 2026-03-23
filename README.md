@@ -1,7 +1,7 @@
 # llms.txt Examples
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![llms.txt](https://img.shields.io/badge/llms.txt-v8.0-ff6b35)
+![llms.txt](https://img.shields.io/badge/llms.txt-v9.0-ff6b35)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
