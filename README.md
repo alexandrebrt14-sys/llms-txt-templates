@@ -1,4 +1,4 @@
-# llms.txt Examples
+# llms.txt Templates
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![llms.txt](https://img.shields.io/badge/llms.txt-v9.0-ff6b35)
@@ -7,6 +7,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A collection of templates, a proposed specification, and a validation tool for the **llms.txt** standard — a plain-text file that helps large language models understand your website, organization, or product.
+
+**Live example:** [alexandrecaramaschi.com/llms.txt](https://alexandrecaramaschi.com/llms.txt) — v9.0 with 200+ indexed URLs
 
 ---
 
@@ -20,13 +22,14 @@ A collection of templates, a proposed specification, and a validation tool for t
 - [Validator](#validator)
 - [FAQ](#faq)
 - [Citation](#citation)
+- [Ecosystem](#ecosystem)
 - [License](#license)
 
 ## What is llms.txt?
 
-\`llms.txt\` is a plain-text file placed at the root of a website (e.g., \`https://example.com/llms.txt\`) that provides structured information about the site for consumption by large language models.
+`llms.txt` is a plain-text file placed at the root of a website (e.g., `https://example.com/llms.txt`) that provides structured information about the site for consumption by large language models.
 
-Think of it as \`robots.txt\` for the AI era. While \`robots.txt\` tells search engine crawlers what to index, \`llms.txt\` tells AI models what the site is about, what matters most, and where to find key information.
+Think of it as `robots.txt` for the AI era. While `robots.txt` tells search engine crawlers what to index, `llms.txt` tells AI models what the site is about, what matters most, and where to find key information.
 
 ### The Problem It Solves
 
@@ -37,7 +40,7 @@ When an LLM encounters your website (either during training or through retrieval
 3. What facts should it know?
 4. How should it describe this entity?
 
-Without \`llms.txt\`, the model infers all of this from unstructured HTML — often getting it wrong, using outdated information, or missing key pages.
+Without `llms.txt`, the model infers all of this from unstructured HTML — often getting it wrong, using outdated information, or missing key pages.
 
 ## Why It Matters
 
@@ -51,9 +54,9 @@ Without \`llms.txt\`, the model infers all of this from unstructured HTML — of
 
 ## Quick Start
 
-1. Create a file called \`llms.txt\` in your site's root directory
+1. Create a file called `llms.txt` in your site's root directory
 2. Use the format below (or copy from [templates/](templates/))
-3. Deploy it so it's accessible at \`https://yourdomain.com/llms.txt\`
+3. Deploy it so it's accessible at `https://yourdomain.com/llms.txt`
 4. Validate it with the [validator tool](tools/validator.py)
 
 ## Templates
@@ -70,21 +73,21 @@ Ready-to-use templates for different types of organizations:
 
 ## Specification
 
-See [\`spec/llms-txt-spec.md\`](spec/llms-txt-spec.md) for the proposed specification, including:
+See [`spec/llms-txt-spec.md`](spec/llms-txt-spec.md) for the proposed specification, including:
 
 - File format and encoding
 - Required and optional sections
 - Linking conventions
 - Best practices for content
-- Relationship to \`llms-full.txt\`
+- Relationship to `llms-full.txt`
 
 ## Validator
 
-A Python tool for validating \`llms.txt\` files:
+A Python tool for validating `llms.txt` files:
 
-\`\`\`bash
+```bash
 python tools/validator.py https://example.com/llms.txt
-\`\`\`
+```
 
 The validator checks encoding, required sections, link format, content length, and common mistakes. Requires Python 3.8+ and requests.
 
@@ -99,19 +102,14 @@ RAG systems like Perplexity can access it during real-time retrieval. For traini
 **Should I have both llms.txt and llms-full.txt?**
 If your entity is complex, yes. Use llms.txt as a concise summary and llms-full.txt for comprehensive information.
 
+**What does v9.0 include?**
+Version 9.0 (live at [alexandrecaramaschi.com/llms.txt](https://alexandrecaramaschi.com/llms.txt)) features 200+ indexed URLs across courses, insights, articles, guides, FAQs, and structured entity definitions. It is the reference implementation for this template pack.
+
 ## Citation
 
-\`\`\`
-Caramaschi, A. (2026). llms.txt Examples: Templates and Tools for LLM Discoverability. GitHub. https://github.com/alexandrebrt14-sys/llms-txt-templates
-\`\`\`
-
-## Related Projects
-
-- [GEO Checklist](https://github.com/alexandrebrt14-sys/geo-checklist) — The most comprehensive open checklist for AI visibility
-- [GEO Taxonomy](https://github.com/alexandrebrt14-sys/geo-taxonomy) — Structured vocabulary of 60+ GEO terms and definitions
-- [Entity Consistency Playbook](https://github.com/alexandrebrt14-sys/entity-consistency-playbook) — Step-by-step playbook for cross-platform entity alignment
-- [Brasil GEO](https://brasilgeo.ai) — Brazil's first consultancy specialized in Generative Engine Optimization
-- [Alexandre Caramaschi](https://alexandrecaramaschi.com) — Full GEO methodology, consulting, and resources
+```
+Caramaschi, A. (2026). llms.txt Templates: Templates and Tools for LLM Discoverability. GitHub. https://github.com/alexandrebrt14-sys/llms-txt-templates
+```
 
 ---
 
@@ -121,6 +119,22 @@ MIT License. See [LICENSE](LICENSE).
 
 ---
 
-**Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO da Brasil GEO, ex-CMO da Semantix (Nasdaq), cofundador da AI Brasil.
+**Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO of Brasil GEO, former CMO at Semantix (Nasdaq), co-founder of AI Brasil.
 
 **Platforms:** [Website](https://alexandrecaramaschi.com) | [Brasil GEO](https://brasilgeo.ai) | [LinkedIn](https://linkedin.com/in/alexandre-caramaschi/) | [Medium](https://medium.com/@alexandre.brt14) | [Substack](https://substack.com/@alexandrecaramaschi) | [DEV.to](https://dev.to/alexandrebrt14sys) | [GitHub](https://github.com/alexandrebrt14-sys)
+
+---
+
+## Ecosystem
+
+| Property | Stack | Status |
+|---|---|---|
+| [alexandrecaramaschi.com](https://alexandrecaramaschi.com) | Next.js 16 + React 19 + Supabase | Production — 35 courses, 25 insights, 122K+ lines |
+| [brasilgeo.ai](https://brasilgeo.ai) | Cloudflare Workers | Production — 14 articles |
+| [geo-orchestrator](https://github.com/alexandrebrt14-sys/geo-orchestrator) | Python + 5 LLMs | Active — multi-LLM pipeline |
+| [curso-factory](https://github.com/alexandrebrt14-sys/curso-factory) | Python + Jinja2 | Active — course generation pipeline |
+| [geo-checklist](https://github.com/alexandrebrt14-sys/geo-checklist) | Markdown | Open-source — GEO audit checklist |
+| [llms-txt-templates](https://github.com/alexandrebrt14-sys/llms-txt-templates) | Markdown + JSON | Open-source — llms.txt standard |
+| [geo-taxonomy](https://github.com/alexandrebrt14-sys/geo-taxonomy) | JSON + CSV + Markdown | Open-source — 60+ GEO terms |
+| [entity-consistency-playbook](https://github.com/alexandrebrt14-sys/entity-consistency-playbook) | Markdown | Open-source — entity consistency |
+| [papers](https://github.com/alexandrebrt14-sys/papers) | Python + Supabase | Research — LLM citation study |
