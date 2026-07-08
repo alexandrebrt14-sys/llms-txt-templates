@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validar-templates:
+    name: Validar templates com o validator
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Smoke test do validator contra cada template
+        run: |
+          fail=0
+          for t in templates/*.txt; do
+            echo "::group::$t"
+            if python tools/validator.py "$t"; then
+              echo "OK: $t"
+            else
+              echo "::error file=$t::template invalido segundo tools/validator.py"
+              fail=1
+            fi
+            echo "::endgroup::"
+          done
+          exit $fail
