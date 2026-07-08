@@ -4,8 +4,6 @@
 ![llms.txt](https://img.shields.io/badge/llms.txt-v9.0-ff6b35)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
 A collection of templates, a proposed specification, and a validation tool for the **llms.txt** standard — a plain-text file that helps large language models understand your website, organization, or product.
 
 **Live example:** [alexandrecaramaschi.com/llms.txt](https://alexandrecaramaschi.com/llms.txt) — v9.0 with 200+ indexed URLs
@@ -65,11 +63,11 @@ Ready-to-use templates for different types of organizations:
 
 | Template | Best For |
 |---|---|
-| [startup.txt](templates/startup.txt) | Early-stage startups and tech companies |
+| [b2b-saas.txt](templates/b2b-saas.txt) | B2B software-as-a-service products |
+| [consulting.txt](templates/consulting.txt) | Consulting firms and professional services |
 | [ecommerce.txt](templates/ecommerce.txt) | Online stores and retailers |
-| [agency.txt](templates/agency.txt) | Marketing, design, and consulting agencies |
+| [local-business.txt](templates/local-business.txt) | Local and brick-and-mortar businesses |
 | [personal-brand.txt](templates/personal-brand.txt) | Consultants, speakers, authors, experts |
-| [saas.txt](templates/saas.txt) | Software-as-a-service products |
 
 ## Specification
 
@@ -134,7 +132,7 @@ MIT License. See [LICENSE](LICENSE).
 | [geo-orchestrator](https://github.com/alexandrebrt14-sys/geo-orchestrator) | Python + 5 LLMs | Active — multi-LLM pipeline |
 | [curso-factory](https://github.com/alexandrebrt14-sys/curso-factory) | Python + Jinja2 | Active — course generation pipeline |
 | [geo-checklist](https://github.com/alexandrebrt14-sys/geo-checklist) | Markdown | Open-source — GEO audit checklist |
-| [llms-txt-templates](https://github.com/alexandrebrt14-sys/llms-txt-templates) | Markdown + JSON | Open-source — llms.txt standard |
+| [llms-txt-templates](https://github.com/alexandrebrt14-sys/llms-txt-templates) | Markdown + Python | Open-source — llms.txt standard |
 | [geo-taxonomy](https://github.com/alexandrebrt14-sys/geo-taxonomy) | JSON + CSV + Markdown | Open-source — 60+ GEO terms |
 | [entity-consistency-playbook](https://github.com/alexandrebrt14-sys/entity-consistency-playbook) | Markdown | Open-source — entity consistency |
 | [papers](https://github.com/alexandrebrt14-sys/papers) | Python + Supabase | Research — LLM citation study |
