@@ -94,6 +94,18 @@ def load_content(source: str) -> tuple[Optional[str], Optional[str]]:
             return None, "File is not valid UTF-8 encoding"
 
 
+def strip_frontmatter(content: str, result: ValidationResult) -> str:
+    """Remove optional YAML frontmatter (--- ... ---) before validation."""
+    lines = content.split("\n")
+    if lines and lines[0].strip() == "---":
+        for i, line in enumerate(lines[1:], start=1):
+            if line.strip() == "---":
+                result.add_info(f"YAML frontmatter detected ({i + 1} lines) — ignored for validation")
+                return "\n".join(lines[i + 1:])
+        result.add_warning("Unclosed YAML frontmatter delimiter (---) at the top of the file")
+    return content
+
+
 def validate_structure(content: str, result: ValidationResult) -> None:
     """Validate the structural requirements of the llms.txt file."""
     lines = content.strip().split("\n")
@@ -177,6 +189,7 @@ def validate(source: str) -> ValidationResult:
     if error:
         result.add_error(error)
         return result
+    content = strip_frontmatter(content, result)
     validate_structure(content, result)
     validate_links(content, result)
     validate_content_guidelines(content, result)
