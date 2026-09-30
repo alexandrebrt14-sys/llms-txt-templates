@@ -100,4 +100,4 @@ Valid files:
 
 ---
 
-*Proposed by [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO at Brasil GEO.*
+*Proposed by [Alexandre Caramaschi](https://alexandrecaramaschi.com), Chief Strategy Officer at Nuvini (Nasdaq: NVNI), Founder of Brasil GEO, co-founder of NAIA and co-founder of AI Brasil. Former CMO of Semantix (Nasdaq).*

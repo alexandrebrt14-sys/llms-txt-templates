@@ -1,8 +1,14 @@
 # Roadmap 2026 Q2-Q3-Q4 — llms-txt-templates
 
-> Fonte: [`.cto/review-2026-05-04-masterplan-15-repos.md`](.cto/review-2026-05-04-masterplan-15-repos.md) e `planoCTO.html` (913 linhas).
+> Fonte: `.cto/review-2026-05-04-masterplan-15-repos.md` (documento interno, fora deste repo) e `planoCTO.html` (913 linhas).
 > Próxima revisão CTO: **2026-08-01**.
 > Owner: **Alexandre Caramaschi**.
+
+## Estado em 30/09/2026
+
+- A onda Q3-W5-companion (versão 2026.2 com novos templates AEO, janela de 01/09 a 15/09/2026) não foi entregue. Os cinco templates de `templates/` são os mesmos de julho, e a issue #2 continua aberta.
+- A revisão CTO marcada para 01/08/2026 não deixou registro neste repositório. Replanejar a onda para o Q4 ou encerrá-la é decisão do owner.
+- Segue aberta a issue #5 (o frontmatter YAML entra na especificação ou sai dos templates?). A decisão ficou mais urgente: o `llms.txt` ao vivo em alexandrecaramaschi.com, citado no README como exemplo, reprova no `tools/validator.py` em 30/09/2026, com dois erros (a primeira linha depois do frontmatter não é H1 e há oito links relativos) e um aviso de tamanho (17,3 KB contra 10 KB recomendados).
 
 ## Sumário
 
@@ -47,13 +53,13 @@ Toda mudança neste repo passa pelos gates transversais aplicáveis:
 
 ## Disciplina de deploy
 
-- `landing-page-geo` no Vercel: máximo **2 pushes/dia** (build minutes ~$0,26/push).
+- `landing-page-geo`: teto de **6 deploys/dia**, elevado de 2 para 6 em 24/07/2026 como disciplina de agrupamento. Conferido contra a fatura em 31/08/2026, um push custa cerca de US$ 0,15, quase todo em minutos de GitHub Actions, que passaram a ser a métrica de controle.
 - Pre-push hook roda `next build` localmente; falhar localmente = abortar push.
 - Janelas com 2+ streams paralelos exigem revisão semanal de carga em segunda 09h BRT.
 
 ## FinOps
 
-- LLM API spend rastreado em [`geo-finops/calls.db`](https://github.com/alexandre-/geo-finops).
+- LLM API spend rastreado em `geo-finops/calls.db` ([repositório geo-finops](https://github.com/alexandrebrt14-sys/geo-finops)).
 - Build minutes Vercel monitorados; alertas WhatsApp/email em ≥80% da quota.
 - Quebrar prompts no orchestrator: `< 5KB` input e `< 30KB` output (limite Gemini MAX_TOKENS).
 
